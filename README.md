@@ -28,12 +28,12 @@ Not yet supported.
 
 ### DES: the Data Encryption Standard algorithm defined by NIST FIPS-46-3.
 
-CfCrypto::DES.encrypt(string, key)
+**CfCrypto::DES.encrypt(string, key)**
 
 * string (required): a string to be encrypted
 * key (required): key to be used by DES for encryption
 
-CfCrypto::DES.decrypt(string, key)
+**CfCrypto::DES.decrypt(string, key)**
 
 * string (required): a string to be decrypted
 * key (required): key to be used by DES for decryption
