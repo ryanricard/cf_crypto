@@ -4,6 +4,8 @@
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+#$:.unshift File.dirname(__FILE__) + '/../lib'
+
 require 'cf_crypto'
 
 RSpec.configure do |config|
