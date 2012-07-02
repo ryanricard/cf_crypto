@@ -3,7 +3,7 @@ require "cf_crypto/version"
 module CfCrypto
 
 	require "openssl"
-	require "Base64"
+	require "base64"
 
 	#DES decryption module
 	module DES
